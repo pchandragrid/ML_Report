@@ -1,0 +1,83 @@
+# Virtual Environment
+.venv/
+venv/
+env/
+ENV/
+.env
+
+# Python Cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+*.ipynb
+
+# IDE & Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+.settings/
+*.sublime-project
+*.sublime-workspace
+
+# OS Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Outputs, Models & Checkpoints
+outputs/models/
+outputs/checkpoints/
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.h5
+*.tflite
+
+# Specific Model Save Directories
+saved_model_phase2/
+saved_vit_gpt2/
+saved_git_model/
+
+# Datasets & Large Data Files
+src/data/raw/
+src/data/processed/
+*.jsonl
+*.json
+
+# Large Files
+*.tar.gz
+*.zip
+*.rar
+*.7z
+*.pkl
+*.pickle
+
+# Image Files (if large)
+*.jpg
+*.jpeg
+*.gif
+train2017/
+val2017/
+
+# Logs & Reports
+logs/
+*.log
+wandb/
+
+# Git
+.git/
